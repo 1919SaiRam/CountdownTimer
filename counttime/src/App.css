@@ -1,0 +1,104 @@
+/* App.css */
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #007bff, #87ceeb, #ff69b4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #fff; /* Title text color */
+}
+
+.input {
+  width: 100%;
+  max-width: 300px;
+  height: 40px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.7); /* Input field background color */
+  border: none;
+  border-radius: 5px;
+}
+
+.button {
+  font-size: 1rem;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.7); /* Button background color */
+  color: #007bff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+}
+
+.timer-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  background-color: #fff; 
+  color: #007bff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  margin: 0 10px; 
+} */
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  background-color: #fff; /* Timer background color */
+  color: #007bff; /* Timer text color */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Timer convex shape shadow */
+  margin: 0 10px; /* Add spacing between timer boxes */
+  transform: perspective(100px) rotateX(-5deg); /* Apply perspective and rotate for convex effect */
+}
+
+
+
+.timer-number {
+  margin-bottom: 5px; /* Add space between number and text */
+}
+
+.timer-text {
+  font-size: 1.5rem; /* Reduce text size */
+}
+
+
+/* Media query for screens larger than 768px */
+@media (min-width: 768px) {
+  .container {
+    margin-top: 100px; /* Adjust container margin for better positioning */
+  }
+
+  .button {
+    padding: 15px 30px; /* Increase button padding for better touch targets */
+  }
+}

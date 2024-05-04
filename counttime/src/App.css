@@ -74,8 +74,11 @@ body {
   border-radius: 10px;
   padding: 10px;
   width: 100px;
-  background-color: #fff; /* Timer background color */
-  color: #007bff; /* Timer text color */
+  /* background-color: #fff; Timer background color */
+  /* color: #007bff; Timer text color */
+  background-color:  #007bff, #87ceeb, #ff69b4 ;
+  /* color : #fff ; */
+  color: #8B4513;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Timer convex shape shadow */
   margin: 0 10px; /* Add spacing between timer boxes */
   transform: perspective(100px) rotateX(-5deg); /* Apply perspective and rotate for convex effect */

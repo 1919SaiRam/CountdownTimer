@@ -81,7 +81,7 @@ const App = () => {
           <>
             {timerOver && (
               <div style={{ color: 'pink', fontSize: '1rem' }}>
-                The Countdown is over! What's next on your adventure? 🎉
+               🎉The Countdown is over! What's next on your adventure? 🎉
               </div>
             )}
             {!timerOver && (
